@@ -1,0 +1,32 @@
+{
+    "colorThemes": [
+        {
+            "type": "business",
+            "color": "red"
+        },
+        {
+            "type": "entertainment",
+            "color": "green"
+        },
+        {
+            "type": "general",
+            "color": "blue"
+        },
+        {
+            "type": "health",
+            "color": "yellow"
+        },
+        {
+            "type": "science",
+            "color": "black"
+        },
+        {
+            "type": "sports",
+            "color": "lime"
+        },
+        {
+            "type": "technology",
+            "color": "pink"
+        }
+    ]
+}
