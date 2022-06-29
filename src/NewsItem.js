@@ -7,7 +7,9 @@ export class NewsItem extends Component {
         return (
             <div className="my-3">
                 <div className="card">
-                    <span style={{zIndex: '1', left:'90%', background:'red'}} className="position-absolute top-0 translate-middle badge rounded-pill">{source}</span>
+                    <div style={{display:'flex',justifyContent:'flex-end',position:'absolute',right:'0'}}>
+                    <span style={{background:'red'}} className="badge pill">{source}</span>
+                    </div>
                     <div style={{ height: "160px", overflow: 'hidden', position: 'center' }}>
                         <img src={!imageUrl ? "https://www.newsnetnebraska.org/wp-content/uploads/2022/06/Looking-at-Mercury-closely.png" : imageUrl} className="card-img-top" style={{ objectFit: 'cover' }} alt="..." />
                     </div>
